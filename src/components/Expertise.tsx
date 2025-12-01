@@ -1,19 +1,23 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faReact, faDocker, faPython  } from '@fortawesome/free-brands-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
     "React",
+    "Vue.js",
+    "Node.js",
+    "Express.js",
     "TypeScript",
     "JavaScript",
     "HTML5",
     "CSS3",
     "SASS",
-    "Flask",
-    "Python",
+    "Bootstrap",
+    "Tailwind CSS",
+    "Material UI",
     "SQL",
     "PostgreSQL",
     "Postman"
@@ -23,12 +27,8 @@ const labelsSecond = [
     "Git",
     "GitHub Actions",
     "Docker",
-    "AWS",
-    "Azure",
-    "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
+    "AWS"
+    
 ];
 
 const labelsThird = [
